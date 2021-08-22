@@ -2,16 +2,10 @@
   "name": "react-google-books",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.16.0"
-  },
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "axios": "^0.18.0",
-    "node": "^16.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^4.3.1",
     "react-scripts": "3.4.3"
   },
   "scripts": {
