@@ -2,7 +2,7 @@
   "name": "react-google-books",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "14.16.0"
   },
   "proxy": "http://localhost:3001/",
