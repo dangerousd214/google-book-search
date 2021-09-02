@@ -2,9 +2,6 @@
   "name": "react-google-books",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "14.16.0"
-  },
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -26,7 +23,6 @@
     "axios": "^0.18.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "mongoose": "^5.3.16",
-    "react-router-dom": "^5.2.0"
+    "mongoose": "^5.3.16"
   }
 }
