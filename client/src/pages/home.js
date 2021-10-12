@@ -10,7 +10,7 @@ import { List } from "../components/List";
 
 class Home extends Component {
   state = {
-    books: [ ],
+    books: [],
     q: "",
     message: "Search For A Book To Begin!"
   };
@@ -31,7 +31,7 @@ class Home extends Component {
       )
       .catch(() =>
         this.setState({
-          books: [ ],
+          books: [],
           message: "No New Books Found, Try a Different Query"
         })
       );
@@ -63,7 +63,7 @@ class Home extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>Google Books Search</strong>
+                <strong>(React) Google Books Search</strong>
               </h1>
               <h2 className="text-center">Search for and Save Books of Interest.</h2>
             </Jumbotron>
@@ -116,3 +116,4 @@ class Home extends Component {
 }
 
 export default Home;
+
