@@ -17,7 +17,13 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/google_book_search");
+  process.env.MONGODB_URI || "mongodb://localhost:27017/google_book_search",
+  {
+    useCreateIndex: true,
+    useNewUrlParser: true
+  }
+);
+
 
 // Start the API server
 app.listen(PORT, () =>
